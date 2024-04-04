@@ -95,7 +95,7 @@ public @interface Interface {
      * 
      * @return interface to implement
      */
-    public Class<?> iface();
+    public String value();
     
     /**
      * [Required] prefix for implementing interface methods. Works similarly to
