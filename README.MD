@@ -3,12 +3,11 @@
 
 ![Mixin Logo](docs/javadoc/resources/logo.png?raw=true)
 
-**Mixin** is a trait/mixin framework for Java using [ASM](https://asm.ow2.io/)
-and hooking into the runtime classloading process via a set of pluggable
-built-in or user-provided services. Built-in services currently support Mojang's
-[LegacyLauncher](https://github.com/Mojang/LegacyLauncher) system, though this
-is deprecated in favour of [ModLauncher](https://github.com/cpw/modlauncher) by
-cpw, which has greater extensibility and has support for Java 8 and later.
+**YetAnotherMixinFork** is a trait/mixin framework for Java using
+[ASM](https://asm.ow2.io/) and hooking into the runtime classloading process via
+a set of pluggable built-in or user-provided services. It does not need Mojang's
+[LegacyLauncher](https://github.com/Mojang/LegacyLauncher) or
+[ModLauncher](https://github.com/cpw/modlauncher) by cpw.
 
 ### Documentation
 
